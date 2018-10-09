@@ -80,20 +80,20 @@ def gera_rotas(player, exit):
 		abertos.remove(atual)
 		fechados.add(atual)
  
-		for visinho in verifica_posicao(atual):
-			if visinho in fechados: 
+		for vizinho in verifica_posicao(atual):
+			if vizinho in fechados: 
 				continue 
 			candidateG = G[atual] + 1
  
-			if visinho not in abertos:
-				abertos.add(visinho) 
-			elif candidateG >= G[visinho]:
+			if vizinho not in abertos:
+				abertos.add(vizinho) 
+			elif candidateG >= G[vizinho]:
 				continue 
  
-			trajeto[visinho] = atual
-			G[visinho] = candidateG
-			H = calcular_heuristica(visinho, exit)
-			F[visinho] = G[visinho] + H
+			trajeto[vizinho] = atual
+			G[vizinho] = candidateG
+			H = calcular_heuristica(vizinho, exit)
+			F[vizinho] = G[vizinho] + H
 			
 	raise RuntimeError("A* failed to find a solution")
 
