@@ -1,0 +1,8 @@
+NE
+NW
+NW
+NW
+NE
+NW
+NE
+NE
