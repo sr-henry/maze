@@ -2,9 +2,9 @@
 SI202 : Resolucao de Problemas II 
 <h2>O Jogo</h2> 
 <p>O nosso jogo possui um tabuleiro 11×11 disposto da seguinte forma.</p>
-![1 1](https://user-images.githubusercontent.com/37659078/47247410-cb7b0080-d3d9-11e8-8755-735e6f2179b3.png)
+[1 1](https://user-images.githubusercontent.com/37659078/47247410-cb7b0080-d3d9-11e8-8755-735e6f2179b3.png)
 <p>O seu jogador poder´a se movimentar para seis posi¸c˜oes diferentes, conforme a ﬁgura abaixo:</p>
-![1 2](https://user-images.githubusercontent.com/37659078/47247430-011fe980-d3da-11e8-9453-d411a635fe78.png)
+[1 2](https://user-images.githubusercontent.com/37659078/47247430-011fe980-d3da-11e8-9453-d411a635fe78.png)
 Entretanto, algumas casas s˜ao bloqueadas. Nesse caso, vocˆe perder´a o jogo imediatamente se pisar em uma casa bloqueada. Al´em disso, vocˆe tamb´em perder´a o jogo se sair do tabuleiro.
 Nas bordas do tabuleiro, algumas casas “especiais” ser˜ao consideradas sa´ıdas. Vocˆe dever´a atingir essas casas no menor tempo poss´ıvel.
 2 Entrada
