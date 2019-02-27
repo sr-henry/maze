@@ -94,8 +94,6 @@ def gera_rotas(player, exit):
 			G[vizinho] = candidateG
 			H = calcular_heuristica(vizinho, exit)
 			F[vizinho] = G[vizinho] + H
-			
-	raise RuntimeError("A* failed to find a solution")
 
 def mostra_rota(player, rota):
 	for r in rota:
