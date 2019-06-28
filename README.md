@@ -21,20 +21,3 @@ O seu programa receberá como entrada, no primeiro parâmetro da linha de comand
 <b>minimum</b> = 5
 </p>
 <img src="https://user-images.githubusercontent.com/37659078/47247449-1f85e500-d3da-11e8-9882-672486432747.png"/>
-<p>Para importar um arquivo de conﬁgurações de nome “conf01.py” no seu código, você pode usar o seguinte trecho de código:</p>
-<p>
-<b>import</b> importlib <br />
-<b>mod</b> = importlib.import_module("conf01")
-</p>
-<p>Daí, você poderá acessar as variáveis com mod.cat, mod.blocks e assim por diante.</p>
-
-<h2>Saída</h2>
-<p>O seu programa deverá invocar continuamente o comando print com alguma das strings: NE, NW, E, W, SW ou SE. Esse resultado será posteriormente veriﬁcado pelo professor. Por exemplo, na entrada anterior, o seu programa deverá gerar a seguinte saída:</p>
-<p>
-SE<br />E<br />E<br />E<br />E
-</p>
-<h2>Avaliação</h2>
-<p>1. O seu programa receberá score 1 em um dado tabuleiro se conseguir sair no menor número de passos.</p>
-<p>2. O seu programa receberá score 0 se demorar o dobro do número mínimo de passos para sair do tabuleiro.</p>
-<p>3. Seja x o número mínimo de passos em um dado tabuleiro e k o nu´mero de passos que o seu programa demorou para sair. O seu programa receberá score (2x−k)/x no tabuleiro se x < k < 2x.</p>
-<p>4. A sua nota no primeiro trabalho será a média de todos os tabuleiros usados pelo professor nos testes.</p>
